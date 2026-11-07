@@ -1,0 +1,13 @@
+
+{
+  "id": "shopdot-backend",
+  "name": "ShopDot Backend",
+  "root": "/home/naarvee/projects/shopdot-V2/shopdotapp-backend-V2",
+  "entry": "app/server.js",
+  "framework": "Express",
+  "language": "JavaScript",
+  "database": "PostgreSQL",
+  "orm": "Sequelize",
+  "readOnly": true,
+  "testCommands": ["npm test"]
+}

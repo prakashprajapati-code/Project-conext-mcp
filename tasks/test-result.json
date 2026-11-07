@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "results": [
+    {
+      "command": "node -e \"process.exit(1)\"",
+      "code": 1,
+      "passed": false,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

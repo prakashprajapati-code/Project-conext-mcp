@@ -1,0 +1,148 @@
+{
+  "task": "Fix product model association",
+  "generatedAt": "2026-11-07T12:28:57.665Z",
+  "keywords": [
+    "product",
+    "model",
+    "association"
+  ],
+  "fallback": false,
+  "graphSummary": {
+    "entry": "app/server.js",
+    "totalFiles": 726,
+    "totalRelationships": 2277,
+    "generatedAt": "2026-11-07T12:18:31.576Z"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "layer": "model",
+      "file": "app/api/v1/common/models/brand-netop-products.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 2,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_activities.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 3,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_categories.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 4,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_detail_images.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 5,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_groups.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 6,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_options.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 7,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_status.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 8,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_tag-details.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 9,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_tags.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 10,
+      "layer": "model",
+      "file": "app/api/v1/common/models/product_variants.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 11,
+      "layer": "model",
+      "file": "app/api/v1/common/models/products.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 12,
+      "layer": "model",
+      "file": "app/api/v1/common/models/retailer_product_category.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 13,
+      "layer": "model",
+      "file": "app/api/v1/common/models/retailer-products.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 14,
+      "layer": "model",
+      "file": "app/api/v1/common/models/store_product_categories.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    },
+    {
+      "id": 15,
+      "layer": "model",
+      "file": "app/api/v1/common/models/store_products.model.js",
+      "action": "Inspect/update Sequelize model or association",
+      "risk": "high"
+    }
+  ],
+  "files": [
+    "app/api/v1/common/models/brand-netop-products.model.js",
+    "app/api/v1/common/models/product_activities.model.js",
+    "app/api/v1/common/models/product_categories.js",
+    "app/api/v1/common/models/product_detail_images.js",
+    "app/api/v1/common/models/product_groups.js",
+    "app/api/v1/common/models/product_options.js",
+    "app/api/v1/common/models/product_status.model.js",
+    "app/api/v1/common/models/product_tag-details.model.js",
+    "app/api/v1/common/models/product_tags.js",
+    "app/api/v1/common/models/product_variants.js",
+    "app/api/v1/common/models/products.js",
+    "app/api/v1/common/models/retailer_product_category.model.js",
+    "app/api/v1/common/models/retailer-products.model.js",
+    "app/api/v1/common/models/store_product_categories.model.js",
+    "app/api/v1/common/models/store_products.model.js"
+  ],
+  "tests": [
+    "tests/unit/product/product.helper.test.js",
+    "tests/unit/product/product.controller.test.js",
+    "tests/unit/product/publish-bank-details.test.js",
+    "tests/unit/retailer/sp-product-pool-tenancy.test.js"
+  ],
+  "risk": "high",
+  "rollback": "Remove the task git worktree. The main checkout is never modified."
+}

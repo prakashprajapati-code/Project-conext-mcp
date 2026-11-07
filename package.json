@@ -1,0 +1,24 @@
+{
+  "name": "shopdot-ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js",
+    "mcp": "node src/mcp/server.js",
+    "orchestrate": "node src/orchestrator.js",
+    "graph": "node src/context/build-graph.js",
+    "graph:check": "node src/context/build-graph.js --check",
+    "graph:validate": "node src/context/check-graph.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "dotenv": "^18.0.9",
+    "zod": "^4.6.7"
+  }
+}
